@@ -35,7 +35,9 @@ you can add noise to your depth images. (if you want to set the noise level, mod
 If you have created your normaimages (they should look like something like this: 00000_pred.png), copy them to path/to/dataset/predictions/
 
 run
+
 bash depth2pcd_normal.sh path/to/dataset/ path/to/build/
+
 bash normal_performance.sh
 
 in path/to/build/histogram.txt you can find the histogram about your model
